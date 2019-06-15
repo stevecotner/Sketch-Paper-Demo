@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		DC2FEA5E22B4C7BB008251A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2FEA5D22B4C7BB008251A5 /* AppDelegate.swift */; };
 		DC2FEA6022B4C7BB008251A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2FEA5F22B4C7BB008251A5 /* SceneDelegate.swift */; };
-		DC2FEA6222B4C7BB008251A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2FEA6122B4C7BB008251A5 /* ContentView.swift */; };
 		DC2FEA6422B4C7BC008251A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2FEA6322B4C7BC008251A5 /* Assets.xcassets */; };
 		DC2FEA6722B4C7BC008251A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2FEA6622B4C7BC008251A5 /* Preview Assets.xcassets */; };
 		DC2FEA6A22B4C7BC008251A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2FEA6822B4C7BC008251A5 /* LaunchScreen.storyboard */; };
 		DC2FEA7522B4C7BC008251A5 /* Sketch_PaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2FEA7422B4C7BC008251A5 /* Sketch_PaperTests.swift */; };
 		DC2FEA8022B4C7BC008251A5 /* Sketch_PaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2FEA7F22B4C7BC008251A5 /* Sketch_PaperUITests.swift */; };
+		DC2FEA9022B4C925008251A5 /* PaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2FEA8F22B4C925008251A5 /* PaperView.swift */; };
+		DC2FEA9222B4CC3A008251A5 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2FEA9122B4CC3A008251A5 /* CanvasView.swift */; };
+		DC2FEA9422B4CDCA008251A5 /* PaperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2FEA9322B4CDCA008251A5 /* PaperModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		DC2FEA5A22B4C7BB008251A5 /* Sketch Paper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sketch Paper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2FEA5D22B4C7BB008251A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC2FEA5F22B4C7BB008251A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC2FEA6122B4C7BB008251A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC2FEA6322B4C7BC008251A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC2FEA6622B4C7BC008251A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC2FEA6922B4C7BC008251A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		DC2FEA7B22B4C7BC008251A5 /* Sketch PaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sketch PaperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2FEA7F22B4C7BC008251A5 /* Sketch_PaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sketch_PaperUITests.swift; sourceTree = "<group>"; };
 		DC2FEA8122B4C7BC008251A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2FEA8F22B4C925008251A5 /* PaperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaperView.swift; sourceTree = "<group>"; };
+		DC2FEA9122B4CC3A008251A5 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		DC2FEA9322B4CDCA008251A5 /* PaperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				DC2FEA5D22B4C7BB008251A5 /* AppDelegate.swift */,
 				DC2FEA5F22B4C7BB008251A5 /* SceneDelegate.swift */,
-				DC2FEA6122B4C7BB008251A5 /* ContentView.swift */,
+				DC2FEA8F22B4C925008251A5 /* PaperView.swift */,
+				DC2FEA9322B4CDCA008251A5 /* PaperModel.swift */,
+				DC2FEA9122B4CC3A008251A5 /* CanvasView.swift */,
 				DC2FEA6322B4C7BC008251A5 /* Assets.xcassets */,
 				DC2FEA6822B4C7BC008251A5 /* LaunchScreen.storyboard */,
 				DC2FEA6B22B4C7BC008251A5 /* Info.plist */,
@@ -269,7 +275,9 @@
 			files = (
 				DC2FEA5E22B4C7BB008251A5 /* AppDelegate.swift in Sources */,
 				DC2FEA6022B4C7BB008251A5 /* SceneDelegate.swift in Sources */,
-				DC2FEA6222B4C7BB008251A5 /* ContentView.swift in Sources */,
+				DC2FEA9222B4CC3A008251A5 /* CanvasView.swift in Sources */,
+				DC2FEA9422B4CDCA008251A5 /* PaperModel.swift in Sources */,
+				DC2FEA9022B4C925008251A5 /* PaperView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

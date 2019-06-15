@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Paper.swift
 //  Sketch Paper
 //
 //  Created by Stephen E. Cotner on 6/14/19.
@@ -7,17 +7,20 @@
 //
 
 import SwiftUI
+import PencilKit
 
-struct ContentView : View {
+struct PaperView: View {
+    var paperModel: PaperModel
+    
     var body: some View {
-        Text("Hello World")
+        CanvasView(delegate: paperModel)
     }
 }
 
 #if DEBUG
-struct ContentView_Previews : PreviewProvider {
+struct PaperView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        PaperView(paperModel: PaperModel())
     }
 }
 #endif
